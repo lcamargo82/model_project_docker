@@ -4,7 +4,7 @@ services:
       context: .
     container_name: js_dev_container
     volumes:
-      - .:/usr/src/app
+      - .:/app
     ports:
       - "3000:3000" 
     env_file:
