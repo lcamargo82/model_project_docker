@@ -6,7 +6,7 @@ RUN npm install -g @nestjs/cli
 
 RUN usermod -u 1000 node && groupmod -g 1000 node
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
 RUN chown -R node:node /usr/src/app
 
